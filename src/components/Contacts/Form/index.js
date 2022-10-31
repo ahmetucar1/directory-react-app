@@ -43,7 +43,7 @@ const Form = ({ addContact, contacts}) => {
             />
         </div>
 
-        <div>
+        <div className='btn'>
             <button onClick={onSubmit}>Add</button>
         </div>
     </form>
